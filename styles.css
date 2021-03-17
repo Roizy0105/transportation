@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+/*general styling*/
+.paragraph {
+  margin: 6rem 6rem 2rem 6rem;
+  font-size: 2rem;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+/*end of general styling*/
+/*index styling*/
+#body_index {
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: red;
+}
+
+.link {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 3rem;
+  border: red solid 10px;
+  padding: 10px 3rem;
+  background: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: red;
+  border: black solid 10px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .link {
+    padding: 10px;
+  }
+
+  .paragraph {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .paragraph {
+    font-size: 18px;
+  }
+}
+
+/*end of index styling*/
+/*bike styling*/
+#body_bike {
+  background-image: url("img/bike.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#message {
+  font-size: 30px;
+}
+
+.container_bike {
+  background: rgba(255, 255, 255, 0.6);
+  margin: 5rem;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  list-style-type: none;
+}
+
+.drop_container {
+  font-family: 'Indie Flower', cursive;
+  font-size: 3rem;
+}
+
+.drop {
+  border: solid red 3px;
+  font-size: 2rem;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+/*end of bike styling*/
+/*train*/
+.card-deck {
+  margin: 3rem;
+}
+
+.card {
+  border: solid red 2px;
+}
+
+.end_paragraph {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 3rem;
+}
+
+/*end of train*/
+/*walking*/
+iframe {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.container {
+  margin: 5rem;
+  width: 40%;
+}
+
+.heading {
+  font-size: 25px;
+}
+
+h2 {
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 45px;
+}
+
+/*end of walking*/
